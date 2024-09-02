@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Created by Tivotal-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar Menu with Indicator</title>
+
+    <!--font awesome(for icons)-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="sidebar">
+      <div class="header">
+        <i class="fab fa-slack"></i>
+        <span>Coderz</span>
+      </div>
+      <ul>
+        <div class="menu">
+          <li>
+            <a href="#" class="active">
+              <div class="icon">
+                <i class="fas fa-home"></i>
+              </div>
+              <span>Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <span>Analytics</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="icon">
+                <i class="fas fa-heart"></i>
+              </div>
+              <span>Favorites</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="icon">
+                <i class="fas fa-bookmark"></i>
+              </div>
+              <span>Saved</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="icon">
+                <i class="fas fa-user"></i>
+              </div>
+              <span>Account</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="icon">
+                <i class="fas fa-message"></i>
+              </div>
+              <span>Messages</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="icon">
+                <i class="fas fa-question-circle"></i>
+              </div>
+              <span>Help</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="icon">
+                <i class="fas fa-cog"></i>
+              </div>
+              <span>Settings</span>
+            </a>
+          </li>
+
+          <div class="indicator"></div>
+        </div>
+
+        <div class="bottom">
+          <li>
+            <a href="#">
+              <div class="icon">
+                <img src="img.png" alt="" />
+              </div>
+              <span>Mary Joseph</span>
+            </a>
+          </li>
+        </div>
+      </ul>
+    </nav>
+
+    <script src="app.js"></script>
+  </body>
+</html>
